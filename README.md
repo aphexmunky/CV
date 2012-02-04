@@ -7,6 +7,6 @@ My CV built using LaTeX. Using
 <a href="https://github.com/cuerty/CurriculumVitae">
 Angel Freire's
 </a>
- version as its basis.
+and <a href="http://homepages.math.uic.edu/~hurder/math589/CVexamples/">other examples</a> as its basis.
 </p>
 
