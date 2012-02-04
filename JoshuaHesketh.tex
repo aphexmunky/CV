@@ -1,0 +1,124 @@
+\documentclass[a4paper,11pt]{moderncv}
+
+% moderncv themes
+% optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and
+% 'roman' (for roman fonts, instead of sans serif fonts)
+\moderncvtheme[purple]{classic}
+
+% for web links
+\definecolor{href}{rgb}{0.2,0.4,0.65}
+\newcommand\weblink[2] {{\color{href} \href{#1}{#2}}}
+\newcommand\cvskill[2] {\cvline{#1}{
+\begin{minipage}[t]{%
+  \linewidth}\small #2
+\end{minipage}
+}}
+
+% character encoding
+\usepackage[utf8]{inputenc}
+
+% adjust the page margins
+\usepackage[scale=0.87]{geometry}
+\AtBeginDocument{\recomputelengths}
+
+% personal data
+\firstname{Joshua}
+\familyname{Hesketh}
+\title{Java Developer}
+\address{8 Malhamdale Avenue}{Rainhill Merseyside L35 4QF}
+\phone{0151 426 1442}
+\mobile{07946 32 32 36}
+\email{josh.hesketh@gmail.com}
+\homepage{http://www.linkedin.com/pub/josh-hesketh/14/20a/402}
+
+\nopagenumbers{}
+
+\begin{document}
+\maketitle
+
+\section{Preamble}
+Pro-active problem solver specialised in the Java enterprise software stack, that has strong beliefs in the test-driven development lifecycle of re-usable software components.
+I pride myself on keeping my knowledge base current and skills useful to employers that require supportable software solutions that can scale with the increasing demands placed upon it.\\
+
+I'm responsible, reliable and hold a good work ethic. 
+I have strong knowledge in enterprise web technologies and associated DSLs. The majority of which comes from personal interest solidified by practical commercial experience.
+
+\section{Experience}
+
+\cventry{Nov 2010\\Present}{Junior Application Server Developer}
+{\weblink{http://www.cdl.co.uk}{CDL ltd}}{Stockport}{Manchester}{
+\begin{itemize}
+  \item Primary focus on EJBs in the WebLogic container backed with Oracle databases.
+  \item Regular development using frameworks such as Spring, JUnit, Mockito, OSGi, Apache Commons, Apache Velocity and JAX.
+  \item Performance tuning SQL to ensure minimum load on databases measured in the hundreds of Gigabytes.
+  \item Development typically using the ATERN agile methodology.
+  \item Projects include the redesign of existing email solution; refactor of document and printing engine; enhancements to many freestanding modular projects.
+\end{itemize}
+}
+
+\cventry{Apr 2008\\Nov 2010}{Software technician}
+{\weblink{http://www.cdl.co.uk}{CDL ltd}}{Stockport}{Manchester}{
+\begin{itemize}
+  \item Development of insurer documentation using combination of XPath and XSL-FO.
+  \item Development of IDE for printer based DSL.
+  \item Working closely with development teams to create tools that reduce work and increase efficiency of production division.
+\end{itemize}
+}
+
+\cventry{Nov 2007\\Apr 2008}{Web Developer}
+{Self Employed}{Homebased}{}{
+\begin{itemize}
+  \item Designing web solutions to customers needs.
+  \item Design, development and deployment of solutions inline with customer expectations.
+\end{itemize}
+}
+
+\cventry{Jul 2006\\Nov 2007}{Customer Sevices Professional}
+{\weblink{http://www.vodafone.com/}{Vodafone Group plc}}{Birchwood}{Warrington}{
+\begin{itemize}
+  \item Providing technical support to high spend customers, adapting language to customers technical ability.
+  \item Solving issues based on the customers description of the effects of an issue.
+  \item Dealing with complaints, keeping calm when customers are emotional on an issue and limiting support to scope of role. Ensuring customers are satisfied with result of interaction.
+\end{itemize}
+}
+
+\cventry{Jul 2001\\Jul 2006}{Repair Engineer}
+{Abbey Road Computers UK}{Prescot}{Merseyside}{
+\begin{itemize}
+  \item Repairing any computer issues customers were having, supporting Windows, Linux and Mac in both hardware and software issues.
+  \item Creating software tools to aid and speed up repair time.
+  \item Backup, recovery and migration of customer data.
+\end{itemize}
+}
+
+\section{Education}
+\cventry{2001 \\ 2003}{Rainhill Sixth Form}{Rainhill}{Merseyside}{}
+{
+A Level: 'Information and Communications Technology' and 'Business Studies'\\
+AS Level: 'Maths' and 'Media Studies'
+}
+\cventry{1996 \\ 2001}{Rainhill High School}{Rainhill}{Merseyside}{}{
+GCSE Grade C: 'English Language', 'Maths', 'Science', 'ICT', 'Business Studies', 'English Literature'
+}
+
+\section{Certifications}
+\cventry{Aug 2010}{Sun Certified Java Programmer}{Sun Microsystems}{}{}{}
+\cventry{Jul 2009}{Foundation Insurance Test}{Chartered Institute of Insurance}{}{}{}
+
+\section{Professional Expertise}
+\begin{itemize}
+\item Strong knowledge of XML and XML based technologies such as SOAP, XPath, XSL-fo, XSLT.
+\item Build tools such as Ant, Maven and Make.
+\item Intricate knowledge of Java; strong knowledge of Clojure and Practical knowledge in Python, Ruby, Octave and PHP.
+\item Strong knowledge of relational databases, specifically Oracle and MySQL.
+\item Daily use of version control systems: CVS, SVN and GIT.
+\item Development for N-tier applications scaling to some of the UK's largest corporate names.
+\item GNU/Linux systems specialist. More than 13 years of experience as user
+  and administrator.
+\item Use and design of web services, including SOAP, XMLRPC and ReST.
+\item Configuration, administration and use of Continuous Integration
+Solutions: Hudson CI (Jenkins CI).
+\item Test-driven development following agile methodology using test and mocking frameworks.
+\end{itemize}
+
+\end{document}
