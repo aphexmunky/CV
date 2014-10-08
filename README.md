@@ -1,12 +1,3 @@
-<h1>
-Curriculum Vitae for Joshua Hesketh
-</h1>
+**Curriculum Vitae for Joshua Hesketh**
 
-<p>
-My CV built using LaTeX. Using 
-<a href="https://github.com/cuerty/CurriculumVitae">
-Angel Freire&#39;s
-</a>
-and <a href="http://homepages.math.uic.edu/~hurder/math589/CVexamples/">other examples</a> as its basis.
-</p>
-
+My CV built using LaTeX. Using [Angel Freire's](https://github.com/cuerty/CurriculumVitae) and [other examples](http://homepages.math.uic.edu/~hurder/math589/CVexamples/) as its basis.
