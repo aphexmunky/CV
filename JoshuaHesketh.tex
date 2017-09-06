@@ -4,7 +4,8 @@
 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and
 % 'roman' (for roman fonts, instead of sans serif fonts)
 \moderncvtheme[purple]{classic}
-
+% \usepackage{fontawesome}
+\moderncvicons{awesome}
 % for web links
 \definecolor{href}{rgb}{0.2,0.4,0.65}
 \newcommand\weblink[2] {{\color{href} \href{#1}{#2}}}
@@ -25,8 +26,9 @@
 \firstname{Joshua}
 \familyname{Hesketh}
 \title{Software Developer}
-\iffalse
+\iftrue
 \email{josh.hesketh@gmail.com}
+\homepage{https://github.com/aphexmunky/CV}
 \fi
 
 \nopagenumbers{}
@@ -44,7 +46,7 @@ I'm responsible, reliable and hold a good work ethic.
 \section{Experience}
 
 \cventry{Present\\Nov 2014}{Team Leader - Scala and Java Developer - Security Champion}
-{\weblink{http://www.thehutgroup.com}{The Hut}}{Northwich}{Cheshire}{
+{\weblink{http://www.thehutgroup.com}{The Hut}}{Warrington}{Cheshire}{
 \begin{itemize}
   \item Design, prototype and developed highly-available, fault-tolerant and reactive green-field project with £100M investment - taken from initial commit, development, through go-live and now into regular maintainence and development cycle.
   \item Project is combination of functional Scala, Akka, CQRS/ES domain driven design with Cassandra Database, Java 8 Spring Boot with Hazelcast and AWS Dynamo as second level persistence. Predominately Message driven architecture. Two frontend components - An Angular SPA driven by progression through Spring State Machine and a thymeleaf HTML5 application.
@@ -167,7 +169,6 @@ GCSE Grade C: 'English Language', 'Maths', 'Science (Double)', 'ICT', 'Business 
 \item Configuring, patching and building Linux kernel from source.
 \item TCP/IP workings and capture/analysis through tcpdump / wireshark.
 \item Use of tools such as John, nmap, netcat, aircrack, hydra, openssl et al.
-\item Building ad-hoc password brute force tools in Python.
 \item Developing plug-ins for applications such as Eclipse and Chrome as needs arise.
 \end{itemize}
 
